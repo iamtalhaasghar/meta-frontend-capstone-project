@@ -69,7 +69,7 @@ export default function HeroSection() {
               bg={"yellow.400"}
               _hover={{ bg: "yellow.500" }}
             >
-              Book your table
+              Reserve your table
             </Button>
             <Button
               rounded={"full"}
