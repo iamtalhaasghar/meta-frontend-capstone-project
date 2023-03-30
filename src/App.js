@@ -1,12 +1,14 @@
 import logo from "./logo.svg";
 import "./App.css";
 import { ChakraProvider } from "@chakra-ui/react";
-import WithSubnavigation from "./components/NavBar";
+import NavBar from "./components/NavBar";
+import HeroSection from "./components/HeroSection";
 function App() {
   return (
     <>
       <ChakraProvider>
-        <WithSubnavigation></WithSubnavigation>
+        <NavBar></NavBar>
+        <HeroSection></HeroSection>
       </ChakraProvider>
     </>
   );
